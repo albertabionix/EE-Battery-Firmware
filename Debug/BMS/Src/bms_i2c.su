@@ -1,0 +1,11 @@
+../BMS/Src/bms_i2c.c:16:27:hal_handle_for_bus	16	static
+../BMS/Src/bms_i2c.c:27:19:map_hal_status	24	static
+../BMS/Src/bms_i2c.c:51:19:hal_read16	48	static
+../BMS/Src/bms_i2c.c:76:19:hal_write16	56	static
+../BMS/Src/bms_i2c.c:103:6:BMS_I2C_SetTransport	16	static
+../BMS/Src/bms_i2c.c:108:26:BMS_I2C_GetTransport	8	static
+../BMS/Src/bms_i2c.c:113:6:BMS_I2C_UseHalTransport	8	static
+../BMS/Src/bms_i2c.c:122:12:BMS_I2C_Read16	32	static
+../BMS/Src/bms_i2c.c:134:12:BMS_I2C_Write16	32	static
+../BMS/Src/bms_i2c.c:143:13:BMS_I2C_BusName	16	static
+../BMS/Src/bms_i2c.c:154:13:BMS_StatusName	16	static

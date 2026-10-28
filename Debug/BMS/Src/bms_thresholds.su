@@ -1,0 +1,3 @@
+../BMS/Src/bms_thresholds.c:7:12:BMS_Thresholds_EvaluateCellVoltage	16	static
+../BMS/Src/bms_thresholds.c:13:12:BMS_Thresholds_EvaluatePackCurrent	16	static
+../BMS/Src/bms_thresholds.c:19:12:BMS_Thresholds_EvaluateTemperature	16	static

@@ -1,0 +1,2428 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gmake.com"
+      - "C:/msys64/ucrt64/bin/gmake.exe"
+      - "C:/msys64/ucrt64/bin/gmake"
+      - "C:/msys64/usr/bin/gmake.com"
+      - "C:/msys64/usr/bin/gmake.exe"
+      - "C:/msys64/usr/bin/gmake"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gmake"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gmake.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gmake.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gmake"
+      - "C:/Windows/System32/gmake.com"
+      - "C:/Windows/System32/gmake.exe"
+      - "C:/Windows/System32/gmake"
+      - "C:/Windows/gmake.com"
+      - "C:/Windows/gmake.exe"
+      - "C:/Windows/gmake"
+      - "C:/Windows/System32/wbem/gmake.com"
+      - "C:/Windows/System32/wbem/gmake.exe"
+      - "C:/Windows/System32/wbem/gmake"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gmake.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gmake.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gmake"
+      - "C:/Windows/System32/OpenSSH/gmake.com"
+      - "C:/Windows/System32/OpenSSH/gmake.exe"
+      - "C:/Windows/System32/OpenSSH/gmake"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gmake.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gmake.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gmake"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gmake.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gmake.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gmake"
+      - "C:/Program Files/dotnet/gmake.com"
+      - "C:/Program Files/dotnet/gmake.exe"
+      - "C:/Program Files/dotnet/gmake"
+      - "C:/Program Files/MATLAB/R2025b/bin/gmake.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/gmake.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/gmake"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gmake.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gmake.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gmake"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gmake.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gmake.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gmake"
+      - "C:/Program Files/MATLAB/R2021a/bin/gmake.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/gmake.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/gmake"
+      - "C:/Program Files/nodejs/gmake.com"
+      - "C:/Program Files/nodejs/gmake.exe"
+      - "C:/Program Files/nodejs/gmake"
+      - "C:/Program Files/Git/cmd/gmake.com"
+      - "C:/Program Files/Git/cmd/gmake.exe"
+      - "C:/Program Files/Git/cmd/gmake"
+      - "C:/Program Files/WSL/gmake.com"
+      - "C:/Program Files/WSL/gmake.exe"
+      - "C:/Program Files/WSL/gmake"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gmake"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gmake.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gmake.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gmake"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gmake"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gmake"
+      - "C:/Users/Brayd/.dotnet/tools/gmake.com"
+      - "C:/Users/Brayd/.dotnet/tools/gmake.exe"
+      - "C:/Users/Brayd/.dotnet/tools/gmake"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gmake"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gmake"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gmake"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gmake.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gmake.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gmake"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gmake.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gmake.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gmake"
+      - "C:/msys64/ucrt64/bin/make.com"
+      - "C:/msys64/ucrt64/bin/make.exe"
+      - "C:/msys64/ucrt64/bin/make"
+      - "C:/msys64/usr/bin/make.com"
+    found: "C:/msys64/usr/bin/make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc.com"
+    found: "C:/msys64/ucrt64/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/"
+    found: "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/4.3.1/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ar.com"
+    found: "C:/msys64/ucrt64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ranlib.com"
+    found: "C:/msys64/ucrt64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/strip.com"
+    found: "C:/msys64/ucrt64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ld.com"
+    found: "C:/msys64/ucrt64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/nm.com"
+    found: "C:/msys64/ucrt64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objdump.com"
+    found: "C:/msys64/ucrt64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objcopy.com"
+    found: "C:/msys64/ucrt64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/readelf.com"
+    found: "C:/msys64/ucrt64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/dlltool.com"
+    found: "C:/msys64/ucrt64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/addr2line.com"
+    found: "C:/msys64/ucrt64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/msys64/usr/bin/tapi.com"
+      - "C:/msys64/usr/bin/tapi.exe"
+      - "C:/msys64/usr/bin/tapi"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/tapi"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/tapi.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/tapi.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/MATLAB/R2025b/bin/tapi.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/tapi.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/tapi"
+      - "C:/Program Files/MATLAB/R2021a/bin/tapi.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/tapi.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/WSL/tapi.com"
+      - "C:/Program Files/WSL/tapi.exe"
+      - "C:/Program Files/WSL/tapi"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/tapi"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/tapi.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/tapi.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/tapi"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/Brayd/.dotnet/tools/tapi.com"
+      - "C:/Users/Brayd/.dotnet/tools/tapi.exe"
+      - "C:/Users/Brayd/.dotnet/tools/tapi"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/tapi"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/tapi"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/tapi"
+      - "C:/Users/Brayd/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/tapi"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1"
+      - "C:/msys64/usr/bin/gcc-ar-13.1.com"
+      - "C:/msys64/usr/bin/gcc-ar-13.1.exe"
+      - "C:/msys64/usr/bin/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-13.1"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.1"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.1"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-13.1.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.1"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar-13.1.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar-13.1"
+      - "C:/Program Files/nodejs/gcc-ar-13.1.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.1.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.1"
+      - "C:/Program Files/WSL/gcc-ar-13.1.com"
+      - "C:/Program Files/WSL/gcc-ar-13.1.exe"
+      - "C:/Program Files/WSL/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-13.1"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar-13.1"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13"
+      - "C:/msys64/usr/bin/gcc-ar-13.com"
+      - "C:/msys64/usr/bin/gcc-ar-13.exe"
+      - "C:/msys64/usr/bin/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-13.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar-13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-13.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-13.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar-13.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar-13.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar-13"
+      - "C:/Program Files/nodejs/gcc-ar-13.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-13"
+      - "C:/Program Files/WSL/gcc-ar-13.com"
+      - "C:/Program Files/WSL/gcc-ar-13.exe"
+      - "C:/Program Files/WSL/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-13"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar-13.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar-13.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar-13.com"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar-13.exe"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar-13"
+      - "C:/msys64/ucrt64/bin/gcc-ar13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar13"
+      - "C:/msys64/usr/bin/gcc-ar13.com"
+      - "C:/msys64/usr/bin/gcc-ar13.exe"
+      - "C:/msys64/usr/bin/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ar13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar13.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar13.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ar13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar13.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar13.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar13.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar13.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ar13"
+      - "C:/Program Files/nodejs/gcc-ar13.com"
+      - "C:/Program Files/nodejs/gcc-ar13.exe"
+      - "C:/Program Files/nodejs/gcc-ar13"
+      - "C:/Program Files/Git/cmd/gcc-ar13.com"
+      - "C:/Program Files/Git/cmd/gcc-ar13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar13"
+      - "C:/Program Files/WSL/gcc-ar13.com"
+      - "C:/Program Files/WSL/gcc-ar13.exe"
+      - "C:/Program Files/WSL/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar13"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar13.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar13.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar13.com"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar13.exe"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ar13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ar13"
+      - "C:/msys64/ucrt64/bin/gcc-ar.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1"
+      - "C:/msys64/usr/bin/gcc-ranlib-13.1.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-13.1.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-13.1"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.1"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.1"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib-13.1"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.1.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.1"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Program Files/WSL/gcc-ranlib-13.1.com"
+      - "C:/Program Files/WSL/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/WSL/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib-13.1"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib-13.1.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib-13.1.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib-13.1"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13"
+      - "C:/msys64/usr/bin/gcc-ranlib-13.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-13.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-13.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib-13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib-13"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-13"
+      - "C:/Program Files/WSL/gcc-ranlib-13.com"
+      - "C:/Program Files/WSL/gcc-ranlib-13.exe"
+      - "C:/Program Files/WSL/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-13"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib-13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib-13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib-13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib-13"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13"
+      - "C:/msys64/usr/bin/gcc-ranlib13.com"
+      - "C:/msys64/usr/bin/gcc-ranlib13.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib13.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib13.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/gcc-ranlib13"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib13.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib13.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib13.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib13.com"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/MATLAB/R2021a/bin/gcc-ranlib13"
+      - "C:/Program Files/nodejs/gcc-ranlib13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib13"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib13"
+      - "C:/Program Files/WSL/gcc-ranlib13.com"
+      - "C:/Program Files/WSL/gcc-ranlib13.exe"
+      - "C:/Program Files/WSL/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib13"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib13.com"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib13.com"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/.dotnet/tools/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Roaming/npm/gcc-ranlib13"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib13.com"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib13.exe"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/gcc-ranlib13"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/node_modules/@vscode/ripgrep/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/MATLAB/R2021a/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/WSL/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/Brayd/Bionx/STM_Configs/Tests/Tests/msys64/ucrt64/bin/"
+      - "C:/Users/Brayd/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Brayd/.dotnet/tools/"
+      - "C:/Users/Brayd/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Brayd/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts/"
+      - "C:/Users/Brayd/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/Brayd/AppData/Roaming/npm/"
+      - "C:/Users/Brayd/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/bin/"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/sbin/"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/"
+      - "C:/Program Files (x86)/bms_host_tests/bin/"
+      - "C:/Program Files (x86)/bms_host_tests/sbin/"
+      - "C:/Program Files (x86)/bms_host_tests/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/windres.com"
+    found: "C:/msys64/ucrt64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\MATLAB\\R2021a\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\WSL\\"
+        - "c:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C: \\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Brayd\\.dotnet\\tools"
+        - "C:\\Users\\Brayd\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\Local-packages\\Python313\\Scripts"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Brayd\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Brayd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bms_host_tests"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools"
+        - "C:/Program Files (x86)/bms_host_tests"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/CMakeScratch/TryCompile-dzfp1f"
+      binary: "C:/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/CMakeScratch/TryCompile-dzfp1f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/CMakeScratch/TryCompile-dzfp1f'
+        
+        Run Build Command(s): C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/bin/cmake.exe -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_5ce32/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5ce32.dir/build.make CMakeFiles/cmTC_5ce32.dir/build
+        make[1]: Entering directory '/c/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/CMakeScratch/TryCompile-dzfp1f'
+        Building C object CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj
+        C:/msys64/ucrt64/bin/gcc.exe   -v -o CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj -c C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Rev6, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_5ce32.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5ce32.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Brayd\\AppData\\Local\\Temp\\cc1KNp0u.s
+        GNU C17 (Rev6, Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: MPFR header version 4.2.0-p4 differs from library version 4.2.0-p9.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "D:/a/msys64/ucrt64/include"
+        ignoring nonexistent directory "/ucrt64/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/a/msys64/ucrt64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 35960f8084e9f583e29252528637e076
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_5ce32.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj C:\\Users\\Brayd\\AppData\\Local\\Temp\\cc1KNp0u.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_5ce32.exe
+        C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/bin/cmake.exe -E rm -f CMakeFiles/cmTC_5ce32.dir/objects.a
+        C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/cmTC_5ce32.dir/objects.a @CMakeFiles/cmTC_5ce32.dir/objects1.rsp
+        C:/msys64/ucrt64/bin/gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_5ce32.dir/objects.a -Wl,--no-whole-archive -o cmTC_5ce32.exe -Wl,--out-implib,libcmTC_5ce32.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Rev6, Built by MSYS2 project) 
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ce32.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_5ce32.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Brayd\\AppData\\Local\\Temp\\ccF5T4j2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5ce32.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_5ce32.dir/objects.a --no-whole-archive --out-implib libcmTC_5ce32.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Brayd\\AppData\\Local\\Temp\\ccF5T4j2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5ce32.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_5ce32.dir/objects.a --no-whole-archive --out-implib libcmTC_5ce32.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ce32.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_5ce32.'
+        make[1]: Leaving directory '/c/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/CMakeScratch/TryCompile-dzfp1f'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/msys64/ucrt64/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        implicit include dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/msys64/ucrt64/include;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/CMakeScratch/TryCompile-dzfp1f']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/bin/cmake.exe -E env VERBOSE=1 C:/msys64/usr/bin/make.exe -f Makefile cmTC_5ce32/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_5ce32.dir/build.make CMakeFiles/cmTC_5ce32.dir/build]
+        ignore line: [make[1]: Entering directory '/c/Users/Brayd/Bionx/STM_Configs/Tests/build/CMakeFiles/CMakeScratch/TryCompile-dzfp1f']
+        ignore line: [Building C object CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:/msys64/ucrt64/bin/gcc.exe   -v -o CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj -c C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.0 (Rev6  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_5ce32.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5ce32.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Brayd\\AppData\\Local\\Temp\\cc1KNp0u.s]
+        ignore line: [GNU C17 (Rev6  Built by MSYS2 project) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.0-p4 differs from library version 4.2.0-p9.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/ucrt64/include"]
+        ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/ucrt64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 35960f8084e9f583e29252528637e076]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_5ce32.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj C:\\Users\\Brayd\\AppData\\Local\\Temp\\cc1KNp0u.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_5ce32.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_5ce32.exe]
+        ignore line: [C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/bin/cmake.exe -E rm -f CMakeFiles/cmTC_5ce32.dir/objects.a]
+        ignore line: [C:/msys64/ucrt64/bin/ar.exe qc CMakeFiles/cmTC_5ce32.dir/objects.a @CMakeFiles/cmTC_5ce32.dir/objects1.rsp]
+        ignore line: [C:/msys64/ucrt64/bin/gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_5ce32.dir/objects.a -Wl --no-whole-archive -o cmTC_5ce32.exe -Wl --out-implib libcmTC_5ce32.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev6, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.1.0 (Rev6  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ce32.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_5ce32.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Brayd\\AppData\\Local\\Temp\\ccF5T4j2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5ce32.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_5ce32.dir/objects.a --no-whole-archive --out-implib libcmTC_5ce32.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Brayd\\AppData\\Local\\Temp\\ccF5T4j2.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_5ce32.exe] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_5ce32.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_5ce32.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Brayd\\AppData\\Local\\Temp\\ccF5T4j2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5ce32.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_5ce32.dir/objects.a --no-whole-archive --out-implib libcmTC_5ce32.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/crt2.o] ==> [C:/msys64/ucrt64/lib/crt2.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/default-manifest.o] ==> [C:/msys64/ucrt64/lib/default-manifest.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc] ==> [C:/msys64/ucrt64/lib/gcc]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [C:/msys64/ucrt64/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [C:/msys64/ucrt64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/msys64/ucrt64/lib/crt2.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;C:/msys64/ucrt64/lib/default-manifest.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0;C:/msys64/ucrt64/lib/gcc;C:/msys64/ucrt64/x86_64-w64-mingw32/lib;C:/msys64/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741/tools/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+...
