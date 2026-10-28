@@ -1,0 +1,59 @@
+Start testing: Oct 28 16:27 Alberta Daylight Time
+----------------------------------------------------------
+1/1 Testing: milestone1
+1/1 Test: milestone1
+Command: "C:/Users/Brayd/Bionx/STM_Configs/Tests/build/test_milestone1.exe"
+Directory: C:/Users/Brayd/Bionx/STM_Configs/Tests/build
+"milestone1" start time: Oct 28 16:27 Alberta Daylight Time
+Output:
+----------------------------------------------------------
+=== BMS Milestone 1 host tests ===
+PASS: max17320_check_ok
+PASS: max17320_devname
+PASS: max17320_present
+PASS: ltc4162_check_ok
+PASS: ltc4162_chem_fad
+PASS: ltc4162_present
+PASS: nack_status
+PASS: nack_preserves_out
+PASS: timeout_status
+PASS: timeout_preserves_out
+PASS: bus_status
+PASS: bus_preserves_out
+PASS: max_write_disabled
+PASS: ltc_write_disabled
+PASS: writes_never_hit_bus
+PASS: thr_cell
+PASS: thr_current
+PASS: thr_temp
+PASS: boot_state_fault
+PASS: boot_csv_prefix
+PASS: retry_one_stays_fault
+PASS: retry_two_recovers_idle
+PASS: reset_boot_fault
+PASS: reset_one_good_fault
+PASS: reset_after_fail_fault
+PASS: reset_need_two_a
+PASS: reset_need_two_b
+PASS: health_boot_idle
+PASS: health_dropout_fault
+PASS: health_recover_one
+PASS: health_recover_two
+PASS: timing_no_early_probe
+PASS: timing_probes_after_interval
+PASS: sys_status_timeout
+PASS: sys_status_no_mutate
+PASS: wrong_chem_fails
+PASS: wrong_chem_no_mutate
+PASS: queue_drops
+PASS: queue_capped
+=== ALL PASSED (0 failures) ===
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"milestone1" end time: Oct 28 16:27 Alberta Daylight Time
+"milestone1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 28 16:27 Alberta Daylight Time

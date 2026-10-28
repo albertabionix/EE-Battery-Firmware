@@ -1,0 +1,5 @@
+../BMS/Src/max17320.c:11:12:is_known_devname	4
+../BMS/Src/max17320.c:16:12:MAX17320_ReadStatus	3
+../BMS/Src/max17320.c:32:12:MAX17320_ReadDevName	3
+../BMS/Src/max17320.c:48:12:MAX17320_CheckDevice	5
+../BMS/Src/max17320.c:80:12:MAX17320_WriteConfig	1

@@ -1,0 +1,5 @@
+../BMS/Src/ltc4162.c:11:12:LTC4162_ReadChargerState	3
+../BMS/Src/ltc4162.c:27:12:LTC4162_ReadSystemStatus	3
+../BMS/Src/ltc4162.c:43:12:LTC4162_ReadChemCells	3
+../BMS/Src/ltc4162.c:59:12:LTC4162_CheckDevice	6
+../BMS/Src/ltc4162.c:105:12:LTC4162_WriteConfig	1

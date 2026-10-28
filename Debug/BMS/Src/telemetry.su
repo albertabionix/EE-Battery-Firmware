@@ -1,0 +1,9 @@
+../BMS/Src/telemetry.c:25:6:Telemetry_Init	8	static
+../BMS/Src/telemetry.c:35:6:Telemetry_SetSink	16	static
+../BMS/Src/telemetry.c:41:19:enqueue_line	24	static
+../BMS/Src/telemetry.c:65:12:Telemetry_LogBoot	200	static
+../BMS/Src/telemetry.c:79:12:Telemetry_LogEvent	192	static
+../BMS/Src/telemetry.c:93:12:Telemetry_LogI2cFailure	216	static
+../BMS/Src/telemetry.c:109:10:Telemetry_Service	40	static
+../BMS/Src/telemetry.c:126:10:Telemetry_DroppedCount	8	static
+../BMS/Src/telemetry.c:131:10:Telemetry_QueuedCount	8	static

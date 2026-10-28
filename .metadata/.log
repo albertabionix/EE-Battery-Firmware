@@ -1,0 +1,13 @@
+!SESSION 2026-10-10 20:35:09.402 -----------------------------------------------
+eclipse.buildId=Version 2.2.0
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  C:\Users\Brayd\Bionx\STM_Configs\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Brayd\Bionx\STM_Configs\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-10-10 20:36:13.714
+!MESSAGE Log4j2 initialized with config file C:\Users\Brayd\Bionx\STM_Configs\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-10-10 20:36:24.329
+!MESSAGE Started RMI Server, listening on port 41337
